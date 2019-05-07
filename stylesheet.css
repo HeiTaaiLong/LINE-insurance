@@ -1,1 +1,87 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, form, input, div {
+  padding: 0;
+  margin: 0;
+}
 
+html, body {
+  height: 100%;
+}
+
+.container {
+  padding: 0 60px;
+}
+
+.top-wrapper {
+  background-color: yellow;
+  height: 100%;
+}
+
+.top-left {
+  width: 50%;
+  float: left;
+}
+
+.top-message {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 23px;
+}
+/** 確認用
+.examples {
+  background-color: white;
+} **/
+
+.example {
+  width: 25%;
+  float: left;
+  background-color: #FFFC7F;
+  margin: 0 24px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.example img {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.example p {
+  padding-bottom: 20px;
+}
+
+.present-message {
+ padding: 20px 0;
+ font-size: 19px;
+}
+
+.flyer {
+  font-size: 17px;
+  text-align: center;
+  border: solid 3px black;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+.notation {
+  font-size: 8px;
+  text-align: right;
+}
+
+.top-right {
+  width: 50%;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+
+footer {
+  background-color: gray;
+  height: 20%;
+}
+
+.step {
+  float: left;
+}
