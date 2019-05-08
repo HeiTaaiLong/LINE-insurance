@@ -128,9 +128,21 @@ html, body {
 
 footer {
   background-color: gray;
-  height: 20%;
+}
+
+.process {
+  border-right: solid 1px black;
 }
 
 .step {
   float: left;
+  text-align: center;
+}
+
+.step img {
+  width: 80px;
+}
+
+.footer-left, .footer-right {
+  padding: 50px 0;
 }
